@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Greetings! How can I assist you with AI security today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Take care"],
+      "responses": ["Goodbye!", "See you soon!", "Take care and stay secure!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Happy to help with security questions!"]
+    },
+    {
+      "tag": "data_privacy",
+      "patterns": [
+        "How is my data protected?",
+        "Is my data secure?",
+        "Do you store personal information?",
+        "How do you handle PII?",
+        "What about GDPR compliance?"
+      ],
+      "responses": [
+        "We ensure data privacy by following strict encryption and access control policies.",
+        "All personal data is handled in compliance with GDPR and other global regulations.",
+        "Your data is encrypted in transit and at rest. We don’t store PII unless necessary and permitted."
+      ]
+    },
+    {
+      "tag": "model_security",
+      "patterns": [
+        "How do you secure your AI models?",
+        "Can someone hack the model?",
+        "Are the models tamper-proof?",
+        "Do you protect against adversarial attacks?"
+      ],
+      "responses": [
+        "Yes, we use techniques like adversarial training and input validation to secure AI models.",
+        "Our models are deployed with strict access controls and monitored for anomalies.",
+        "We implement security best practices to guard against model theft and tampering."
+      ]
+    },
+    {
+      "tag": "access_control",
+      "patterns": [
+        "Who can access the system?",
+        "Do you have role-based access?",
+        "How is access to AI systems controlled?"
+      ],
+      "responses": [
+        "Access is restricted using role-based access control (RBAC). Only authorized personnel can access sensitive components.",
+        "All access attempts are logged and monitored in real-time to prevent misuse.",
+        "Yes, our systems enforce RBAC and multi-factor authentication to safeguard operations."
+      ]
+    },
+    {
+      "tag": "incident_response",
+      "patterns": [
+        "What happens during a security breach?",
+        "Do you have an incident response plan?",
+        "How do you respond to security threats?"
+      ],
+      "responses": [
+        "We have a robust incident response plan in place for all AI systems.",
+        "In case of a breach, alerts are triggered, systems are isolated, and our security team investigates immediately.",
+        "We use automated detection and response systems to contain and mitigate threats swiftly."
+      ]
+    }
+  ]
+}
